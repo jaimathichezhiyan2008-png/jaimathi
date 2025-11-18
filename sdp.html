@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Waste Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Waste Management System</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Report Waste</a>
+            <a href="#">Tips</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Report Your Food Waste</h2>
+            <p>Help us reduce food waste, protect our environment, and support those in need.</p>
+        </section>
+        <section class="form-section">
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="food-type">Type of Food: </label>
+                <input type="text" id="food-type" name="food-type" required>
+                
+                <label for="quantity">Quantity (kg): </label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+                
+                <label for="location">Location: </label>
+                <input type="text" id="location" name="location" required>
+                
+                <button type="submit">Submit Waste Report</button>
+            </form>
+        </section>
+        <section class="info">
+            <h2>Why Manage Food Waste?</h2>
+            <ul>
+                <li>Reduce landfill and pollution</li>
+                <li>Save money and resources</li>
+                <li>Feed people and animals in need</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Food Waste Management System
+    </footer>
+</body>
+</html>
